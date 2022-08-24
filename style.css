@@ -1,0 +1,364 @@
+/*
+FUENTES
+font-family: 'Abel', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+
+COLORES:
+    #33FFCC
+    #990066
+    #310459
+    #000033
+*/
+
+body {
+    margin: 0em;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    text-align: justify;
+    background-color: black;
+}
+
+p {
+    margin: 0em;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-style: 700;
+}
+
+h2,h3,h4,h5,h6 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 600;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+ul {
+    padding-left: 0px;
+    
+}
+
+.button {
+    background-color: #310459;
+    border: 2px solid black;
+    color: whitesmoke;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    border-radius: 8px;
+}
+
+.button1:hover {
+    background-color: #33FFCC;
+    color: black;
+}
+
+.progress {
+    background-color: #33FFCC;
+    --bs-progress-bar-bg: #990066;
+}
+
+a {
+    color: #B9BD86;
+}
+
+/* mouse over link */
+a:hover {
+    color:  #33FFCC;
+}
+
+/* selected link */
+a:active {
+    color:  #33FFCC;
+}
+
+.navbar-brand {
+    padding-left: 3rem;
+}
+
+.nav {
+    --bs-link-hover-color:  #33FFCC;
+}
+
+.nav-link {
+    color: whitesmoke;
+    font-weight: 700;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.cover {
+    height: 900px;
+    color: whitesmoke;
+    background-image: url(/img/cover_a.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cover_a {
+    height: 1080px;
+    color: whitesmoke;
+    margin: 50px;
+}
+
+.cover_b {
+    height: 200px;
+    width: auto;
+    color: whitesmoke;
+    background-image: url(/img/cover.b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gravity-logo {
+    padding: 30px;
+}
+
+.front_buttons {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.cover_historia {
+    height: 500px;
+    color: whitesmoke;
+    background-image: url(/img/cover_historia.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.container_historia {
+    background-color: black;
+    color: white;
+    margin: 30px;
+
+}
+.container_historia h3{
+    margin: 30px;
+}
+
+.container_historia img{
+    margin: 30px;
+}
+
+.sec-heading h6 {
+    font-size: 65px;
+}
+
+.single-box {
+    overflow: hidden;
+}
+
+.img-area {
+    overflow: hidden;
+}
+
+.img-area img {
+    margin: 0 auto;
+    transition: all 0.5s ease;
+    max-width: 230px;
+}
+
+.single-box:hover img{
+    transform: scale(1.2);
+}
+
+.info-area a{
+    display: inline-block;
+    margin: 25px 0 0;
+}
+
+.cover_team {
+    height: 800px;
+    color: whitesmoke;
+    background-image: url(/img/cover_team.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.team-slider {
+    background-image: url(/img/violet_and_magenta_constellation.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.team-slider h4{
+    text-align: center;
+    color: #33FFCC;
+    font-family: 'Abel', sans-serif;
+}
+
+.team-slider .owl-dots{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -60px;
+    text-align: center;
+    width: 100%;
+}
+
+.team-slider button.owl-dot{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin: 0 4px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #990066;
+}
+
+.team-slider button.owl-dot.active {
+    background-color: #33FFCC;
+}
+
+.move-animation {
+    position: relative;
+    animation: move-animation 2s ease-in-out infinite;
+}
+.cta img {
+    padding: 30px;
+}
+
+.cta-text {
+    padding: 30px;
+}
+
+@keyframes move-animation {
+    0% {
+        top: 3px;
+    };
+    50% {
+        top: -3px;  
+    };
+    100% {
+        top: 3px;
+    }
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    z-index: 20;
+    position: absolute;
+  }
+
+
+
+  nav li {
+    display: inline;
+  }
+  nav a {
+    padding: 5px 5px;
+    border-radius: 5px;
+
+    text-decoration: none;
+  }
+  nav a:hover, nav a:focus {
+    background: #036;
+  }
+  footer {
+    clear: both;
+    font-size: 10px;
+  }
+  footer a {
+    color: #000;
+  }
+  
+.row {
+    --bs-gutter-x: 0px;
+}
+
+.cover_species {
+    height: 800px;
+    color: whitesmoke;
+    background-image: url(/img/cover_species.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.container-species {
+    right: -600px;
+}
+
+.nav-species {
+    bottom: 150px;
+    right: 40px;
+
+}
+
+  .gallery {
+    position: relative;
+    height: 800px;
+    width: auto;
+    overflow: hidden;
+    margin: 30px;
+  }
+  .target {
+    position: absolute;
+    top: 60px;
+    left: -600px;
+  }
+
+
+  .target:target {
+    top: 60px;
+    left: 20px;
+  }
+
+  
+
+  .footer {
+    padding:50px 0;
+    color: whitesmoke;
+    background-color:black;
+}
+
+.footer h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.footer ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:18px;
+    margin-bottom:0;
+}
+
+.footer ul p {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+    font-size: 22px;
+}
+
+.footer ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+}
+
+.footer ul a:hover {
+    opacity:0.8;
+}
